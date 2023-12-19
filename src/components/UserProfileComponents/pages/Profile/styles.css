@@ -1,0 +1,105 @@
+.profileUserInfo{
+    width: 96%;
+    height: 40vh;
+
+    padding: 10px;
+
+    border: 1px solid #F1F4F7;
+    border-radius: 10px;
+    background-color: white;
+
+    margin-bottom: 2vh;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userInfo img{
+    margin-right: 2vw;
+}
+
+.userName p{
+    padding: 0;
+    margin: 0;
+}
+
+.userInfo button{
+    margin-left: auto;
+    height: 4vh;
+}
+
+.infoSectionWrapper{
+    margin-top: 2vh;
+
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(3, 1fr);
+    gap: 20px;
+}
+
+.infoLineWrapper{
+
+}
+
+.longInfoBlock{
+    width: 34vw;
+    height: 10vh;
+
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.grid-template{
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+
+    text-align: center;
+}
+
+.grid-template *{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.userSurveysBlock{
+    width: 96%;
+    height: 40vh;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.userSurveysBlockHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    vertical-align: center;
+
+    margin-bottom: 10px;
+}
+
+.userSurveysBlockHeader p{
+    padding: 0;
+    margin: 0;
+}
+
+.surveysList{
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,83 @@
+.card_title {
+    margin-left: 5px;
+}
+
+.card_element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.card_element_icon {
+    padding-right: 10px;
+}
+
+.card_element_block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text_container {
+    text-align: start;
+}
+
+.survey_block {
+    border: solid #EBEBEB;
+    border-radius: 16px;
+    width: 25%;
+    /*text-align: center;*/
+    padding: 5px;
+}
+
+.main_survey_info {
+    display: flex;
+    margin: 5px;
+}
+
+.survey_base_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    margin-left: 3%;
+    width: 50%;
+}
+
+.survey_base_info_block {
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.survey_base_info_color_active {
+    background-color: #DEF4C7;
+    color: #72B04C;
+
+}
+
+.survey_second_info_color {
+    background-color: #F1F4F7;
+}
+
+.main_survey_info > img {
+    height: 100%;
+}
+
+.survey_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.public_date {
+    margin: 5px 5px 10px;
+}
+
+.survey_info_with_icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}

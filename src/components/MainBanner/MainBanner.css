@@ -1,0 +1,22 @@
+.main_banner {
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3471CC;
+    margin: 0 70px;
+}
+
+.left_main_banner_block {
+    color: white;
+}
+
+.main_title {
+    font-size: xxx-large;
+}
+
+.main_banner_text {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}

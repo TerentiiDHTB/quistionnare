@@ -1,0 +1,11 @@
+.surveys_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.surveys_block > div {
+    flex: 20% 0;
+}
