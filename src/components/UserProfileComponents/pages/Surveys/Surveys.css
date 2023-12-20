@@ -1,0 +1,72 @@
+.surveysBodyWrapper{
+    width: 92%;
+    height: 75%;
+
+    padding: 2vw;
+
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+.surveysBodyHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+
+    border-bottom: 1px solid black;
+}
+
+.surveysBodyHeader p{
+    margin: 0;
+    padding: 0;
+}
+
+.surveysBodyHeader button{
+    height: 4vh;
+    width: 24vh;
+
+    border-radius: 10px;
+    background-color: #4080DF;
+
+    border: none;
+    color: white;
+
+    margin-left: auto;
+}
+
+.filterButtonSection{
+    width: 100%;
+
+    margin-bottom: 2vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.filterButton{
+    padding: 10px;
+    margin-right: 2vh;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.filterButton:last-of-type{
+    margin-right: 0;
+}
+
+.surveyFilterInput{
+    width: 25%;
+
+    margin-left: auto;
+}
+
+.filteredSurveysList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

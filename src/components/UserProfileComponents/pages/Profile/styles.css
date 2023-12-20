@@ -72,7 +72,10 @@
 .userSurveysBlock{
     width: 96%;
     height: 40vh;
+
     background-color: white;
+
+    border-radius: 10px;
 
     display: flex;
     flex-direction: column;

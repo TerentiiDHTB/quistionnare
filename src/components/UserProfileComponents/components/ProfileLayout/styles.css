@@ -39,7 +39,11 @@
     margin-bottom: 8%;
 
     color: #344054;
+
+    border-radius: 10px;
 }
+
+.activeLink{background-color: #F1F4F7}
 
 .sectionEnd{
     padding-bottom: 12%;

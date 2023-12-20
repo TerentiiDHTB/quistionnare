@@ -4,7 +4,6 @@ import "./styles.css"
 
 import userImg from "../../../../static/img/userImg.png"
 import ProfileInfoBlock from "../../components/ProfileInfoBlock/ProfileInfoBlock";
-import SurveyBlock from "../../../SurveyBlock/SurveyBlock";
 import SurveyBlockSmall from "../../../SurveyBlockSmall/SurveyBlockSmall";
 
 const Profile = () => {
