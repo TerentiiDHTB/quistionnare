@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Navigate} from 'react-router-dom';
+import {Navigate, useNavigate} from 'react-router-dom';
 import './login.css';
 import useToken from "../../data/useToken";
 // import Header from "../Header/Header";
@@ -12,6 +12,8 @@ const Login = () => {
     const [password, setPassword] = useState();
     const {token, setToken} = useToken();
     const [error, setError] = useState(null);
+    const navigate = useNavigate()
+
 
     const handleSubmit = async e => {
         e.preventDefault();
@@ -22,22 +24,26 @@ const Login = () => {
     }
 
     const loginUser = (credentials) => {
-        $api.post('/auth/respondent-login', credentials)
+        console.log(credentials)
+        $api.post('/auth/respondent-login',
+            {username: credentials.login, password: credentials.password},
+            {headers:{'accept' : 'application/json', "Content-Type":"application/x-www-form-urlencoded"}})
             .then(res => {
                 if (res.status === 200) {
                     console.log(res)
                     setToken(res.data)
+                    navigate("/profile/main", {replace: true})
                 }
             })
             .catch(err => {
                 console.log(err)
-                setError(err.response.data.error)
+                setError(err.response.data.detail)
             })
     }
 
     if (token) {
         return (
-            <Navigate to="/"/>
+            <Navigate to="/profile/main"/>
         )
     } else {
         return (
@@ -65,10 +71,10 @@ const Login = () => {
                                 <input className="login_inputs" type="password" placeholder="Введите пароль"
                                        onChange={e => setPassword(e.target.value)}/>
                             </div>
-                            {error ?
+                            {error &&
                                 <div className="error_element">
                                     <div>{error}</div>
-                                </div> : <div/>
+                                </div>
                             }
                             <div className='password_params'>
                                 <div>

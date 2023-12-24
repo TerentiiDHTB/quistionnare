@@ -1,0 +1,90 @@
+.createQuestionSectionWrapper{
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.questionSectionWrapper{
+    border: 1px solid #E4E6E8;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+.questionSectionWrapper{
+    width: 100%;
+}
+
+.questionWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.questionText{
+    width: 77%;
+    height: 2.5vh;
+
+    border: none;
+    border-radius: 10px;
+
+    padding-block: 0;
+    padding-inline: 0;
+    padding: 0;
+
+    background-color: #F1F4F7;
+}
+
+.addQuestionImage{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.addQuestionImage img{height: 2.5vh;}
+
+.answerType{
+    height: 2.5vh;
+    width: 20%;
+
+    background-color: #F1F4F7;
+    border: none;
+    border-radius: 10px;
+}
+
+.deleteQuestionBtn{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.deleteSurveyButton img{
+
+}
+
+.answerOption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 77%;
+    margin-bottom: 10px;
+}
+
+.answerOptionText{
+    border: none;
+    width: 100%;
+}
+
+.deleteAnswerBtn{
+    background-color: transparent;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

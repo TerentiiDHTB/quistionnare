@@ -1,0 +1,78 @@
+.createSurveySectionWrapper{
+    width: 96%;
+    height: 75%;
+
+    padding: 10px;
+
+    border: 1px solid #F1F4F7;
+    border-radius: 10px;
+    background-color: white;
+
+    margin-bottom: 2vh;
+}
+
+.createSurveySectionHeader{
+    display: flex;
+    flex-direction: row;
+    vertical-align: center;
+
+    padding: 30px 10px;
+
+    border-bottom: 1px solid black;
+}
+
+.createSurveySectionHeader input{
+    border: none;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.createSurveySectionHeader button{
+    border: none;
+    background-color: white;
+}
+
+.createSurveyHeaderButton{
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    width: 35%;
+}
+
+.createSurveyHeaderButton button{
+    width: 100%;
+
+    padding: 10px 0;
+
+    margin-left: 20px;
+
+    background-color: #F1F4F7;
+    border-radius: 10px;
+}
+
+.tabsWrapper{
+    display: flex;
+    flex-direction: row;
+
+    padding: 30px 10px;
+}
+
+.tabButton{
+    padding:10px;
+    margin-left: 10px;
+
+    border: 10px;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.questionsSection{
+    width: auto;
+
+    padding: 0 10px;
+
+}
