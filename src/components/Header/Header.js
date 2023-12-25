@@ -35,7 +35,7 @@ const Header = () => {
             <div className="header">
                 <Link to="/"><img src={logo_img} alt="logo"/></Link>
                 <div className='LoginRegisterBlock'>
-                    <div><Link to="/login" style={{color: '#000000'}}>Войти</Link></div>
+                    <div><Link to="/loginint" style={{color: '#000000'}}>Войти</Link></div>
                     <div><Link to="/register" style={{color: '#000000'}}>Зарегистрироваться</Link></div>
                 </div>
                 <Outlet/>

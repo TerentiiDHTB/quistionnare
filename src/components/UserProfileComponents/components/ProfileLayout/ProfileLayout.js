@@ -12,10 +12,6 @@ const profileLinks = ["/profile/surveys", "/profile/surveys/create"]
 const ProfileLayout = (props) => {
     const navigate = useNavigate()
     const currentWindow = useLocation().pathname
-    console.log(currentWindow)
-
-    console.log(localStorage.getItem("token"), Boolean(localStorage.getItem("token")))
-
 
     useEffect(() => {
         if (!localStorage.getItem("token")){

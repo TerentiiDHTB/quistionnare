@@ -6,6 +6,7 @@ import Register from "./components/Register/Register";
 import Profile from "./components/UserProfileComponents/pages/Profile/Profile";
 import Surveys from "./components/UserProfileComponents/pages/Surveys/Surveys";
 import CreateSurvey from "./components/UserProfileComponents/pages/CreateSurveys/CreateSurveys";
+import LoginInterviewer from "./components/InterviewerLogin/InterviewerLogin";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<MainPage/>}/>
                 <Route path="/login" element={<Login/>}/>
+                <Route path="/loginint" element={<LoginInterviewer/>}/>
                 <Route path="/register" element={<Register/>}/>
                 <Route path="/profile" element={<Navigate to={"/profile/main"}/>}/>
                 <Route path="/profile/main" element={<Profile/>}/>
