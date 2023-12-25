@@ -72,7 +72,9 @@
 
 .questionsSection{
     width: auto;
+    height: 60%;
 
     padding: 0 10px;
 
+    overflow-y: auto;
 }
